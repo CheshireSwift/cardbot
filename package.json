@@ -1,0 +1,22 @@
+{
+  "name": "cardbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon -e ts -d 2 -x ts-node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lowdb": "^1.0.9",
+    "@types/node": "^13.5.3",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "lowdb": "^1.0.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}
