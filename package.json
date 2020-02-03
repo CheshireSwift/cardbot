@@ -6,13 +6,15 @@
   "scripts": {
     "start": "ts-node .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "nodemon -e ts -d 2 -x ts-node ."
+    "watch": "tsnd"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/colornames": "^1.1.1",
     "@types/lowdb": "^1.0.9",
     "@types/node": "^13.5.3",
+    "colornames": "^1.1.1",
     "discord.js": "^11.5.1",
     "dotenv": "^8.2.0",
     "lowdb": "^1.0.0",
